@@ -10,3 +10,15 @@ describe('#Frame', function () {
     expect(frame.score()).toEqual(7)
   })
 })
+
+// As a player
+// So I know my total score
+// I’d like to view my total score for up to 10 frames
+
+describe('#TotalScore', function () {
+  it ('Expect total score to be 80 when player rolls 4 twenty times', function () {
+    player = new Player()
+    player.roll(4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4)
+    expect(player.score()).toEqual(80)
+  })
+})
