@@ -1,42 +1,8 @@
 
-Bowling Challenge
+Bowling
 =================
 
-
-* Challenge time: rest of the day and weekend.
-* Feel free to use google, your notes, books, etc. but work on your own
-* If you refer to the solution of another coach or student, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9am Monday week
-
-## The Task
-
-**THIS IS NOT A BOWLING GAME, IT IS A BOWLING SCORECARD. DO NOT GENERATE RANDOM ROLLS. THE USER INPUTS THE ROLLS.**
-
-Count and sum the scores of a bowling game for one player (in JavaScript).
-
-A bowling game consists of 10 frames in which the player tries to knock down the 10 pins. In every frame the player can roll one or two times. The actual number depends on strikes and spares. The score of a frame is the number of knocked down pins plus bonuses for strikes and spares. After every frame the 10 pins are reset.
-
-As usual please start by
-
-* Forking this repo
-
-* Finally submit a pull request before Monday week at 9am with your solution or partial solution.  However much or little amount of code you wrote please please please submit a pull request before Monday week at 9am.  And since next week is lab week you have a full extra week to work on this.
-
-___STRONG HINT, IGNORE AT YOUR PERIL:___ Bowling is a deceptively complex game. Careful thought and thorough diagramming — both before and throughout — will save you literal hours of your life.
-
-### Optional Extras
-
-In any order you like:
-
-* Create a nice interactive animated interface with jQuery.
-* Set up [Travis CI](https://travis-ci.org) to run your tests.
-* Add [ESLint](http://eslint.org/) to your codebase and make your code conform.
-
-You might even want to start with ESLint early on in your work — to help you
-learn Javascript conventions as you go along.
-
-## Bowling — how does it work?
+## How does it work?
 
 ### Strikes
 
@@ -67,13 +33,21 @@ More about ten pin bowling here: http://en.wikipedia.org/wiki/Ten-pin_bowling
 
 ![Ten Pin Score Example](images/example_ten_pin_scoring.png)
 
-## Code Review
 
-In code review we'll be hoping to see:
+##  User Stories
 
-* All tests passing
-* The code is elegant: every class has a clear responsibility, methods are short etc.
+As a player - So I can play a single frame - I’d like to see what I scored for a frame
 
-Reviewers will potentially be using this [code review rubric](docs/review.md).  Note that referring to this rubric in advance may make the challenge somewhat easier.  You should be the judge of how much challenge you want.
+As a player - So I know my total score - I’d like to view my total score for up to 10 frames
 
-##  Challenge Notes
+As a player - So that I can have a gutter game - I’d like to bowl 20 zero scores.
+
+As a player - So I can get bonus points for a spare - I’d like to have my spare bonus points added to my total
+
+As a player - So I can get bonus points for a strike - I’d like to have my spare bonus points added to my total
+
+As a player - So that I can get 30 points in the 10th frame - I’d like to be able to score 3 strikes in a row in the final frame only.
+
+As a player - So that I can get 20 points in the final frame - I’d like to be able to knock over 10 pins in the first two rolls and then get a strike.
+
+As a player - So that I can play a perfect game - I’d like to be able to enter 12 strikes in a row and score 300 points.
