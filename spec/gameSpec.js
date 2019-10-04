@@ -8,4 +8,9 @@ describe('#Frame', function() {
     frame = new Frame
     expect(frame.score(0)).toEqual(0)
   })
+
+  it('Expect frame score to be 1 when player rolls 0 and 1', function () {
+    frame = new Frame
+    expect(frame.score(0, 1)).toEqual(1)
+  })
 })
