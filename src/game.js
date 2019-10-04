@@ -1,11 +1,7 @@
-function Player() {
+function Frame () {
 
 }
 
-Player.prototype.roll = function() {
-
-}
-
-Player.prototype.score = function() {
-  return 80
-}
+Frame.prototype.score = function() {
+  return 0
+};

@@ -38,13 +38,13 @@ More about ten pin bowling here: http://en.wikipedia.org/wiki/Ten-pin_bowling
 
 As a player - So I can play a single frame - I’d like to see what I scored for a frame
 
-As a player - So I know my total score - I’d like to view my total score for up to 10 frames
-
-As a player - So that I can have a gutter game - I’d like to bowl 20 zero scores.
-
 As a player - So I can get bonus points for a spare - I’d like to have my spare bonus points added to my total
 
 As a player - So I can get bonus points for a strike - I’d like to have my spare bonus points added to my total
+
+As a player - So I know my total score - I’d like to view my total score for up to 10 frames
+
+As a player - So that I can have a gutter game - I’d like to bowl 20 zero scores.
 
 As a player - So that I can get 30 points in the 10th frame - I’d like to be able to score 3 strikes in a row in the final frame only.
 
